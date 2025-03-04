@@ -1,0 +1,22 @@
+/* src/index.css or src/styles/tailwind.css */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('assets/font/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
+
+
