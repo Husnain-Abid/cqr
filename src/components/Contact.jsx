@@ -72,7 +72,7 @@ const Contact = () => {
 
       </div>
 
-      <div className={`min-h-screen font-helvetica flex justify-center p-4 ${isDarkMode ? "bg-[#3F3F3F] text-white " : " text-black" }`}>
+      <div className={`min-h-screen font-helvetica flex justify-center p-4  ${isDarkMode ? "bg-[#3F3F3F] text-white " : " text-black" }`}>
         <div className=" rounded-lg w-full container p-8 md:p-12">
           <div className="max-w-xl mx-auto text-sm">
             <h1 className="text-4xl font-bold mb-6">
@@ -133,7 +133,7 @@ const Contact = () => {
                   </div>
 
                   {dropdownOpen && (
-                    <div className={`absolute z-10 mt-1 w-full  border-gray-200  rounded-sm shadow-lg  ${isDarkMode ? "bg-[#3F3F3F] text-white bg-white border  border-gray-200" : " text-white border-gray-200 bg-white border" }`}>
+                    <div className={`absolute z-10 mt-1 w-full  border-gray-200  rounded-sm shadow-lg  ${isDarkMode ? "bg-[#3F3F3F] text-gray-400  border  border-gray-200" : " text-black border-gray-200 bg-white border" }`}>
                       <ul className="py-1">
                         {sourceOptions.map((option) => (
                           <li
