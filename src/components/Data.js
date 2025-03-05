@@ -43,7 +43,7 @@ export const logos = [
         id: 2,
         name: "OpenMarket",
         logo: logo2,
-        position: "top-5 left-[550px] ",
+        position: "top-20 left-[250px] md:top-5  md:left-[550px]  ",
         description: "Federated Ecommerce <br/> <br/> Open  Market secure e- commerce  platform that lets you control  your own ecommerce, drop  shipping and delivery pipelines.  With federated open shopping  cart systems, integrate multiple  payment options seamlessly  and ensure E2E (end- to- end)  encryption for secure  transactions with no tired  kickers and only hot buyers.",
 
         type: {
@@ -66,7 +66,7 @@ export const logos = [
         id: 4,
         name: "Liquid Bridge",
         logo: logo4,
-        position: "-bottom-[280px] left-28 ",
+        position: "-bottom-[160px] left-14 md:-bottom-[280px] md:left-28  ",
         description: "Transaction Bridge <br/> <br/> Enterprise class liquidity bridge.  Enabling seamless transactions  across various asset classes, chains,  networks and currency forms.",
         type: {
             bottom: [
@@ -106,7 +106,7 @@ export const logos = [
     {
         id: 9,
         logo: logo9,
-        position: "-top-[220px] left-20",
+        position: "-top-[180px] left-14 md:-top-[220px] md:left-20",
         type: {
             top: [
                 { id: 91, logo: logo11, name: "Investor Trade Portal", description: " A user- friendly platform that makes  account management and trade  execution easy. With real- time portfolio  monitoring, and secure login, you can  track market performance, execute  trades with precision.", position: "-top-[340px] -left-80" },

@@ -28,13 +28,13 @@ const Home = () => {
     }
   }, [isDarkMode]);
 
-console.log("isDarkMode", isDarkMode);
+  console.log("isDarkMode", isDarkMode);
 
 
   return (
     <>
 
-      <div className={` px-36 overflow-hidden flex justify-end gap-5 py-10 ${isDarkMode ? "bg-[#3F3F3F] text-white " : "" } `}>
+      <div className={` px-36 overflow-hidden flex justify-end gap-5 py-10 ${isDarkMode ? "bg-[#3F3F3F] text-white " : ""} `}>
         <Link to="/contact" className=" hover:text-[#DD5471]">Contact</Link>
         <div onClick={() => dispatch(toggleDarkMode())}>
           {isDarkMode ? (
@@ -47,7 +47,7 @@ console.log("isDarkMode", isDarkMode);
       </div>
 
 
-      <div className={`min-h-screen font-helvetica  flex justify-center items-center relative overflow-auto ${isDarkMode ? "bg-[#3F3F3F] " : ""    }`}>
+      <div className={`min-h-screen font-helvetica  flex justify-center items-center relative overflow-auto ${isDarkMode ? "bg-[#3F3F3F] " : ""}`}>
 
 
 
@@ -59,21 +59,21 @@ console.log("isDarkMode", isDarkMode);
               <div className="flex justify-center items-center text-white text-2xl font-bold relative">
                 <img src={logo} alt="logo"
 
-                  className={`w-44 object-cover transition-transform duration-300 ${show ? 'rotate-infinite' : ''}`}
+                  className={`w-28 md:w-44 object-cover transition-transform duration-300 ${show ? 'rotate-infinite' : ''}`}
 
                 />
 
               </div>
 
               <div className="flex justify-center items-center text-white text-2xl font-bold absolute">
-                <img src={text} alt="text" className="w-12 object-cover " />
+                <img src={text} alt="text" className="w-8 md:w-12 object-cover " />
               </div>
 
             </div>
 
             {show &&
 
-              <Logos />
+              <Logos show={show} />
 
             }
 
